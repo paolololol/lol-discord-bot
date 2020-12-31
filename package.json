@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "ioredis": "^4.19.4",
+    "league-connect": "^5.0.1",
+    "pino": "^6.8.0",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "pino-pretty": "^4.3.0"
+  }
+}
