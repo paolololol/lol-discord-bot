@@ -1,11 +1,4 @@
-const {handleMessage} = require('./handlers')
-const client = require('./client')
-const config = require('dotenv').config().parsed
+const League = require('./league-client')
 
-client.on('ready', () => {
-    console.log('Ready')
-})
-
-client.on('message', handleMessage)
-
-client.login(config.TOKEN)
+const league = new League();
+league.logEvents();
